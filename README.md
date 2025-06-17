@@ -13,5 +13,3 @@ The main goal of this repository is to:
 - Practice problems from platforms like LeetCode, Codeforces, CodeChef, HackerRank, GFG, etc.
 - Improve problem-solving and coding skills.
 - Make it easy for others (including recruiters and peers) to see my progress and approach.
-
-## 🗂️ Structure
