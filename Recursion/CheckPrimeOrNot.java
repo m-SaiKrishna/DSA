@@ -4,6 +4,6 @@ public class CheckPrimeOrNot {
     }
 
     public static boolean isPrime(int n){
-        
+        return true;
     }
 }
