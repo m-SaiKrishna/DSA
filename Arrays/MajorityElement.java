@@ -41,6 +41,7 @@ public class MajorityElement {
             else if(arr[i] == ele) cnt++;
             else cnt--;
         }
+        int ct = 0 , r = Integer.MIN_VALUE;
         int count = 0;
         for(int i=0;i<arr.length;i++){
             if(ele == arr[i]) count++;
