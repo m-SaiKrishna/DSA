@@ -26,7 +26,7 @@ public class DivideArrayIntoMaxArrays {
             ans[j][0] = nums[i - 2];
             ans[j][1] = nums[i-1];
             ans[j][2] = nums[i];
-
+            int cnt = 0;
             j += 1;
             
         }
