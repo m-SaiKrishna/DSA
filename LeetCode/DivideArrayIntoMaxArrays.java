@@ -2,7 +2,7 @@ import java.util.*;
 public class DivideArrayIntoMaxArrays {
     public static void main(String args[]){
         int[] arr = {1,3,4,8,7,9,3,5,1};
-        int k = 3;
+        int k = 4;
         int [][] ans =  divideArray(arr,k);
         for(int i = 0 ; i < ans.length; i++){
             for(int j = 0 ; j<ans[i].length; j++){
