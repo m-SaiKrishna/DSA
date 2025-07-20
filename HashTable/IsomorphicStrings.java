@@ -4,7 +4,7 @@ import java.util.*;
 public class IsomorphicStrings {
     public static void main(String[] args) {
         String s = "foo";
-        String t = "bar";
+        String t = "barbar";
         // System.out.println(isIsomorphic(s,t));
         isIsomorphic(s, t);
 
