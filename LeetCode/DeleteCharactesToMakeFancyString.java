@@ -1,6 +1,7 @@
 import java.util.*;
 public class DeleteCharactesToMakeFancyString {
     public static void main(String[] args) {
+        int cnt = 0;
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(makeFancyString(str));
