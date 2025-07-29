@@ -4,5 +4,6 @@ class HelloWorld{
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(str);
+        System.out.println(str);
     }
 }
