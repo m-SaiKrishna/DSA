@@ -5,6 +5,7 @@ public static void main(String args[]){
 
 for(String st : arr) {
     String[] ans = st.split("\\+"); // split each string by '+'
+    // String[] ans = st.split("\\+"); // split each string by '+'
     
     for(int i = 0; i < ans.length; i++) {
         System.out.println(ans[i]); // print each fraction
