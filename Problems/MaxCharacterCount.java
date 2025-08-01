@@ -6,6 +6,7 @@ class MaxCharacterCount{
         int[] arr = new int[26];
         int max = maxFrequencyCharacter(arr, str);
         System.out.println("Max Frequency "+max);
+        System.out.println("Max Frequency "+max);
     }
     
     public static int maxFrequencyCharacter(int[]arr,String str){
