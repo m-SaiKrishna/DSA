@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class LongestConsecutiveSequence {
     public static void main(String[] args) {
-        int[] arr = {0};
+        int[] arr = {10,10,1};
         System.out.println(longestConsecutiveSequence(arr));
     }
 
