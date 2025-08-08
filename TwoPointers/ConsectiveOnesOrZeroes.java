@@ -13,6 +13,7 @@ public class ConsectiveOnesOrZeroes {
         else {
             max = Math.max(cnt,max);
             cnt = 1;
+            //cnt = 1;
         }
     }
     return Math.max(max,cnt);
