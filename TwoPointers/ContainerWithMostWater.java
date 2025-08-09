@@ -32,6 +32,7 @@ public class ContainerWithMostWater {
         else{
                 max = Math.max(max,arr[j] * (j-i));
                 j--;
+                //j--;
 
             }
         }
