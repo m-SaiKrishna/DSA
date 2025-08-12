@@ -12,6 +12,7 @@ public class MaxWindowSum{
         for(int i = 0; i <= arr.length - k; i++){
             int sum = 0, j = i;
             while(j < i + k){
+                
                 sum += arr[j];
                 j++;
                 
