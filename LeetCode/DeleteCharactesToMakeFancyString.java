@@ -22,5 +22,7 @@ public class DeleteCharactesToMakeFancyString {
             }
         }
         return st.toString();
+        // return st.toString();
+        
     }
 }
