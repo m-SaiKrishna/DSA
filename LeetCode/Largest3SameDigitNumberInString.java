@@ -6,6 +6,7 @@ public class Largest3SameDigitNumberInString {
                 String candidate = num.substring(i, i + 3);
                 if (candidate.compareTo(result) > 0) {
                     result = candidate;
+                    // result = candidate;
                 }
             }
         }

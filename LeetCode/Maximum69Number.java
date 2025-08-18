@@ -12,6 +12,7 @@ public class Maximum69Number {
 
     public static void main(String[] args) {
         int n = 9969;
+        //   int n = 9969;
         System.out.println(maximum69Number(n));
     }
 }
