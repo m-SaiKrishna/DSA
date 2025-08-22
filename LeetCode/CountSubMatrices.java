@@ -35,6 +35,7 @@ public static int countSubmatricesWithAllOnes(int[][] matrix) {
         minHeight = Math.min(minHeight, height[i][k]);
         if (minHeight == 0) break;
         count += minHeight;
+        // count += minHeight;
       }
     }
   }
