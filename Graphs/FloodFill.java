@@ -8,6 +8,7 @@ public class FloodFill {
             {1, 0, 1}
         };
         int sr = 1, sc = 1, color = 2;
+        // int sr = 1, sc = 1, color = 2;
         image = floodFill(image, sr, sc, color);
         System.out.println(Arrays.deepToString(image));
     }
