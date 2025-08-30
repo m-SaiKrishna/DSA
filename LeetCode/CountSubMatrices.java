@@ -31,6 +31,7 @@ public static int countSubmatricesWithAllOnes(int[][] matrix) {
   for (int i = 0; i < rows; i++) {
     for (int j = 0; j < cols; j++) {
       int minHeight = Integer.MAX_VALUE;
+      // int minHeight = Integer.MAX_VALUE;
       for (int k = j; k < cols; k++) {
         minHeight = Math.min(minHeight, height[i][k]);
         if (minHeight == 0) break;
