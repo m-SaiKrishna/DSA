@@ -23,6 +23,7 @@ public static int countSubmatricesWithAllOnes(int[][] matrix) {
     for (int i = 0; i < rows; i++) {
       if (matrix[i][j] == 1) {
         height[i][j] = (i == 0) ? 1 : height[i - 1][j] + 1;
+        // height[i][j] = (i == 0) ? 1 : height[i - 1][j] + 1;
       }
     }
   }
