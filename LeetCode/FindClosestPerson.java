@@ -5,6 +5,7 @@ public class FindClosestPerson {
 
         for (String name : names) {
             int distance = calculateDistance(name, target);
+            // int distance = calculateDistance(name, target);
             if (distance < minDistance) {
                 minDistance = distance;
                 closestPerson = name;
