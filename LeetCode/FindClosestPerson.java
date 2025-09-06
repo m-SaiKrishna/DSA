@@ -18,5 +18,6 @@ public class FindClosestPerson {
     private static int calculateDistance(String name1, String name2) {
         
         return Math.abs(name1.length() - name2.length());
+        // return Math.abs(name1.length() - name2.length());
     }
 }
