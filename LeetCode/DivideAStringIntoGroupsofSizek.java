@@ -25,6 +25,7 @@ public class DivideAStringIntoGroupsofSizek {
                 for(int i=0;i+k <= s.length(); i+=k){
                 
                     System.out.println(s.substring(i, i+k));
+                    // System.out.println(s.substring(i, i+k));
                 
             }   
                 String lastString =  s.substring(len - (len % k)) + str;
