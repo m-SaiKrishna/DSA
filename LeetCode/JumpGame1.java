@@ -14,6 +14,7 @@ public class JumpGame1 {
         if(nums.length == 1) return true;
         int c = 0 , f = 0;
         for(int i = 0; i < nums.length; i++){
+        // for(int i = 0; i  i++){
             f = Math.max(f, i+nums[i]);
 
             if(i == c){
