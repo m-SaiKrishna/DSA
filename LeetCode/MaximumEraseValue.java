@@ -20,7 +20,7 @@ public class MaximumEraseValue {
             arr[nums[r]] = true;
             if(sum > max){
                 max = sum;
-                // max = sum;
+                
             }
 
             r++;
