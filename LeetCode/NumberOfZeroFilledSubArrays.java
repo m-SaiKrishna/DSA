@@ -6,6 +6,7 @@ public class NumberOfZeroFilledSubArrays {
      public static long zeroFilledSubarray(int[] nums) {
       long cnt = 0, max = 0;
       for(int num : nums){
+    //   for(int num : nums){
         if(num == 0){
             max += 1;
             cnt += max;
