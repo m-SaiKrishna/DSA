@@ -13,6 +13,7 @@ public class IsSubset {
     public static List<Integer> issubset(int ind, int[] arr, int n, int sum, int targetSum, List<Integer> list) {
         if (ind == n) {
             if (sum == targetSum) {
+            // if (sum == targetSum) {
                 return list; 
             }
             return null;

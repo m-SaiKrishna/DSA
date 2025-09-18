@@ -10,6 +10,7 @@ public class SortVowelsInAString {
     
     public static String sortVowels(String s) {
         List<Character> ch = new ArrayList<>();
+        // List<Character> ch = new ArrayList<>();
         for(char c : s.toCharArray()){
             if(isVowel(c)){
                 ch.add(c);
